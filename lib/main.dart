@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'e_commerceui2.dart';
+import 'drawerdemo.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: const ECommerceUi2(),
+      home: const DrawerDemo(),
       theme: ThemeData(useMaterial3: true),
       debugShowCheckedModeBanner: false,
     );
