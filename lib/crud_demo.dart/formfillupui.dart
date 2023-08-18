@@ -24,6 +24,7 @@ class _FormFillUpState extends State<FormFillUp> {
       body: Padding(
         padding: const EdgeInsets.all(8.0),
         child: Column(
+          
           children: [
             textfieldName(
               controller: FormFillupController.txtFirstNameEditingController,

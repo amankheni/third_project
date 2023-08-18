@@ -1,5 +1,3 @@
-// ignore_for_file: iterable_contains_unrelated_type
-
 import 'package:flutter/material.dart';
 
 class FormFillupController {
