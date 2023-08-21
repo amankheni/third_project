@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:third_project/navigation_example/first_screen.dart';
+import 'package:third_project/navigation_example/secound_screen.dart';
 
 class ThirdScreen extends StatefulWidget {
   const ThirdScreen({super.key});
@@ -28,7 +30,16 @@ class _ThirdScreenState extends State<ThirdScreen> {
             MaterialButton(
               color: Colors.blue,
               onPressed: () {
-                Navigator.popUntil(context, ModalRoute.withName('/'));
+                //  Navigator.popUntil(context, ModalRoute.withName('/'));
+                //   Navigator.pushAndRemoveUntil(
+                //       context,
+                //       MaterialPageRoute(
+                //         builder: (context) => const FirstScreen(),
+                //       ),
+                //       (route) => true);
+
+                Navigator.pushNamedAndRemoveUntil(
+                    context, '/', (route) => false);
               },
               child: const Text('Go to First Screen'),
             ),

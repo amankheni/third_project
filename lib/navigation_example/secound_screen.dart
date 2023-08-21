@@ -25,7 +25,8 @@ class _SecondScreenState extends State<SecondScreen> {
                 //     builder: (context) => const ThirdScreen(),
                 //   ),
                 // );
-                Navigator.pushNamed(context, '/thirdScreen');
+                //  Navigator.pushNamed(context, '/thirdScreen');
+                Navigator.popAndPushNamed(context, '/thirdScreen');
               },
               child: const Text('Go to Third Screen'),
             ),
