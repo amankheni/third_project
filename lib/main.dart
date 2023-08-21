@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-
-import 'drawerdemo.dart';
+import 'package:third_project/navigation_example/first_screen.dart';
+import 'package:third_project/navigation_example/secound_screen.dart';
+import 'package:third_project/navigation_example/third_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,7 +12,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: const DrawerDemo(),
+      initialRoute: '/',
+      routes: {
+        '/secondScreen': (context) => const SecondScreen(),
+        '/thirdScreen': (context) => const ThirdScreen(),
+      },
+      home: const FirstScreen(),
       theme: ThemeData(useMaterial3: true),
       debugShowCheckedModeBanner: false,
     );
