@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:third_project/navigation_example/third_screen.dart';
 
 class SecondScreen extends StatefulWidget {
   const SecondScreen({super.key});
