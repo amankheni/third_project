@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:third_project/navigation_example/secound_screen.dart';
 
 class FirstScreen extends StatefulWidget {
   const FirstScreen({super.key});

@@ -103,8 +103,7 @@ class _HomePageState extends State<HomePage> {
               elevation: 10,
               color: Colors.red[400],
               child: const Center(
-                child: Text("I am going away",
-                    style: const TextStyle(fontSize: 28)),
+                child: Text("I am going away", style: TextStyle(fontSize: 28)),
               ),
             ),
           ),
