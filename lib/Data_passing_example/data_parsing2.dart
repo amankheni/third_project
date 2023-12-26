@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:third_project/Data_parcing_example/user_model.dart';
+
+import 'user_model.dart';
 
 class DataPassing2 extends StatefulWidget {
 //  final String data;

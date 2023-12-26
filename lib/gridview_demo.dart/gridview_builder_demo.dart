@@ -9,7 +9,10 @@ class GridViewBuldierDemo extends StatelessWidget {
     return Scaffold(
       body: GridView.builder(
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-              crossAxisCount: 3, mainAxisSpacing: 5, crossAxisSpacing: 3),
+            crossAxisCount: 2,
+            mainAxisSpacing: 1,
+            crossAxisSpacing: 10,
+          ),
           itemBuilder: (context, index) => Container(
                 color: Colors.red,
                 child: Column(

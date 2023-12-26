@@ -9,11 +9,11 @@ class GridViewCountDemo extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: GridView.count(
-        crossAxisCount: 3,
+        crossAxisCount: 2,
         mainAxisSpacing: 3,
-        crossAxisSpacing: 3,
+        crossAxisSpacing: 1,
         scrollDirection: Axis.vertical,
-        childAspectRatio: 0.9,
+        childAspectRatio: 1,
         clipBehavior: Clip.hardEdge,
         dragStartBehavior: DragStartBehavior.down,
         keyboardDismissBehavior: ScrollViewKeyboardDismissBehavior.onDrag,

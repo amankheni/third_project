@@ -1,15 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:third_project/Data_parcing_example/data_parsing2.dart';
-import 'package:third_project/Data_parcing_example/user_model.dart';
 
-class DataParsing1 extends StatefulWidget {
-  const DataParsing1({super.key});
+import 'data_parsing2.dart';
+import 'user_model.dart';
+
+class DataPassing1 extends StatefulWidget {
+  const DataPassing1({super.key});
 
   @override
-  State<DataParsing1> createState() => _DataParsing1State();
+  State<DataPassing1> createState() => _DataPassing1State();
 }
 
-class _DataParsing1State extends State<DataParsing1> {
+class _DataPassing1State extends State<DataPassing1> {
   TextEditingController firstNamecontroller = TextEditingController();
   TextEditingController middleNamecontroller = TextEditingController();
   TextEditingController lastNamecontroller = TextEditingController();
